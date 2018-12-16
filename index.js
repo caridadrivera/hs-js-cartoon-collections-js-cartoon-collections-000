@@ -35,7 +35,6 @@ else {
    
    
    
-    
 function findTheCheese (foods) {
   for (let i = 0; i < foods.length; i++){
   if(foods[i] === 'cheddar' || foods[i] === 'gouda' || foods[i] === 'camembert' ){
