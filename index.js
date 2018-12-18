@@ -36,14 +36,19 @@ else {
   }
 }
    
- function findTheCheese (foods) {
+function findTheCheese (foods){
   for (let i = 0; i < foods.length; i++){
-  if(foods[i] === 'cheddar' || foods[i] === 'gouda' || foods[i] === 'camembert' ){
-    return foods[i];
+    if(foods.includes('cheddar')){
+      return 'cheddar';
+    }
+    else return 'no cheese!';
   }
 }
-    return 'no cheese!';
-}
+
+
+
+
+
 
 
 // i could also do something shorter;
@@ -51,7 +56,7 @@ else {
 // function findTheCheese (foods) {
   // let cheeseToFind = 'cheddar';
   // for (let i = 0; i < foods.length; i++){
-  // if(foods.indexOf('cheddar') > -1){
+  // if(foods.indexOf(cheeseToFind) > -1){
     // return cheeseToFind;
   // }
 // }
