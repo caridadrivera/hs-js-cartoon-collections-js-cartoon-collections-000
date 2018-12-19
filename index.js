@@ -7,6 +7,8 @@ function dwarfRollCall(dwarves) {
    return nameList;
  }
 
+
+
 function summonCaptainPlanet(planeteerCalls){
   var namesCalled =[];
   for (var i = 0; i < planeteerCalls.length; i++) {
@@ -27,7 +29,7 @@ function longPlaneteerCalls(words){
             // we do not need an empty variable like the last two
  for (var i = 0; i < words.length; i++){
               // if the length of each word[i]
-  if (words[i].length > 4){
+if (words[i].length > 4){
    return true;
   }
 else {
@@ -35,6 +37,8 @@ else {
 }
   }
 }
+   
+   
    
 function findTheCheese (foods){
   for (let i = 0; i < foods.length; i++){
@@ -44,7 +48,6 @@ function findTheCheese (foods){
     else return 'no cheese!';
   }
 }
-
 
 
 
