@@ -57,7 +57,7 @@ function findTheCheese (foods){
  // function findTheCheese (foods) {
  // let cheeseToFind = 'cheddar';
  // for (let i = 0; i < foods.length; i++){
-  // if(foods.indexOf(cheeseToFind) > -1){
+  // if(foods[i].indexOf(cheeseToFind) > -1){
   //   return cheeseToFind;
   // }
 // }
