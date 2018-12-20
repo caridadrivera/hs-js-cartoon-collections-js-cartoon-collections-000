@@ -63,6 +63,17 @@ function findTheCheese (foods){
 // }
    //  return 'no cheese!'; }
 
+function wordWithB (words){
+  //search through all the words and return a new array with only the words that start with B
+  var bWords = [];
+  for (var i = 0; i < words.length; i++){
+    if (words[i].startsWith('b')){
+      bWords.push(words[i]);
+    }
+  }
+  return bWords;
+}
+
 
 
 
