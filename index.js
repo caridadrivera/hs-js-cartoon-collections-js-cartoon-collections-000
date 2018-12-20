@@ -21,7 +21,7 @@ return namesCalled;
 
 
 
-// we want to know if any of the listed calls are longer than fou characters so we would have to go throughhh the arrays.
+// we want to know if any of the listed calls are longer than four characters so we would have to go throughhh the arrays.
 // more specifically we need to go through the characters
 
 function longPlaneteerCalls(words){
@@ -39,7 +39,6 @@ else {
 }
    
    
-   
 function findTheCheese (foods){
   for (let i = 0; i < foods.length; i++){
     if(foods.includes('cheddar')){
@@ -47,24 +46,24 @@ function findTheCheese (foods){
     }
     else return 'no cheese!';
   }
-}
+}  
 
 
 
 
 
 
-// i could also do something shorter;
+
+// i could also done index of;
    
-// function findTheCheese (foods) {
-  // let cheeseToFind = 'cheddar';
-  // for (let i = 0; i < foods.length; i++){
+ // function findTheCheese (foods) {
+ // let cheeseToFind = 'cheddar';
+ // for (let i = 0; i < foods.length; i++){
   // if(foods.indexOf(cheeseToFind) > -1){
-    // return cheeseToFind;
+  //   return cheeseToFind;
   // }
 // }
-    // return 'no cheese!';
-// }
+   //  return 'no cheese!'; }
 
 
 
